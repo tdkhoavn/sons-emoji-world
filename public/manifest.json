@@ -1,0 +1,21 @@
+{
+  "name": "Son's Emoji World",
+  "short_name": "Emoji World",
+  "description": "Thế giới emoji vui nhộn cho bé Sơn",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eff6ff",
+  "theme_color": "#ec4899",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

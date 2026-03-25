@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- Mặt cười tròn vàng -->
+  <circle cx="64" cy="68" r="38" fill="#FFD93D"/>
+  <circle cx="64" cy="68" r="36" fill="#FFE066"/>
+  <!-- Mắt -->
+  <ellipse cx="50" cy="60" rx="5" ry="6" fill="#1a1a2e"/>
+  <ellipse cx="78" cy="60" rx="5" ry="6" fill="#1a1a2e"/>
+  <!-- Lóe sáng mắt -->
+  <circle cx="48" cy="57" r="2" fill="white"/>
+  <circle cx="76" cy="57" r="2" fill="white"/>
+  <!-- Miệng cười rộng -->
+  <path d="M 45 74 Q 64 92 83 74" stroke="#1a1a2e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Lưỡi -->
+  <ellipse cx="64" cy="80" rx="8" ry="5" fill="#FF6B6B"/>
+  <!-- Má hồng -->
+  <circle cx="42" cy="72" r="6" fill="#FF9FB2" opacity="0.5"/>
+  <circle cx="86" cy="72" r="6" fill="#FF9FB2" opacity="0.5"/>
+  <!-- Ngôi sao nhỏ xung quanh (vector thuần) -->
+  <!-- Sao vàng trên trái -->
+  <polygon points="22,22 24,16 26,22 32,22 27,26 29,32 22,28 15,32 17,26 12,22" fill="#FFD93D" opacity="0.9"/>
+  <!-- Sao nhỏ trên phải -->
+  <polygon points="106,18 108,14 110,18 114,18 111,21 112,25 106,22 100,25 101,21 98,18" fill="white" opacity="0.8"/>
+  <!-- Tim hồng dưới trái -->
+  <path d="M18,100 C18,96 14,93 11,96 C8,99 11,103 18,108 C25,103 28,99 25,96 C22,93 18,96 18,100Z" fill="#FF6B9D" opacity="0.85"/>
+  <!-- Sao nhỏ dưới phải -->
+  <polygon points="110,104 112,100 114,104 118,104 115,107 116,111 110,108 104,111 105,107 102,104" fill="#FFD93D" opacity="0.8"/>
+  <!-- Chấm lấp lánh -->
+  <circle cx="38" cy="14" r="2.5" fill="white" opacity="0.7"/>
+  <circle cx="96" cy="38" r="2" fill="white" opacity="0.6"/>
+  <circle cx="32" cy="110" r="2" fill="white" opacity="0.5"/>
+  <circle cx="100" cy="90" r="2.5" fill="white" opacity="0.6"/>
+</svg>
